@@ -48,24 +48,8 @@ public class TV {
 		this.setVolumen(this.volumen - 1);
 	}
 	
-	public Marca getMarca() {
-		return this.marca;
-	}
-	public boolean getEstado() {
-		return this.estado;
-	}
-	public int getCanal() {
-		return this.canal;
-	}
-	public int getVolumen() {
-		return this.volumen;
-	}
-	public int getPrecio() {
-		return this.precio;
-	}
-	public Control getControl() {
-		return this.control;
-	}
+
+
 	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
