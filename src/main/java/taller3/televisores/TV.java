@@ -47,7 +47,24 @@ public class TV {
 	public void volumenDown() {
 		this.setVolumen(this.volumen - 1);
 	}
-	
+	public Marca getMarca() {
+		return this.marca;
+	}
+	public boolean getEstado() {
+		return this.estado;
+	}
+	public int getCanal() {
+		return this.canal;
+	}
+	public int getVolumen() {
+		return this.volumen;
+	}
+	public int getPrecio() {
+		return this.precio;
+	}
+	public Control getControl() {
+		return this.control;
+	}
 
 
 	public void setMarca(Marca marca) {
@@ -58,7 +75,7 @@ public class TV {
 			this.canal = canal;
 	}
 	public void setVolumen(int volumen) {
-		if(this.estado && this.volumen >= 0 && volumen <= 7)
+		if(this.estado && volumen >= 0 && volumen <= 7)
 			this.volumen = volumen;
 	}
 	public void setPrecio(int precio) {
